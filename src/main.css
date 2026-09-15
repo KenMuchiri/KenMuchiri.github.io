@@ -801,6 +801,9 @@ p.lede {
 .blog-page .reveal[style*="C4C4CA"] {
   color: #5e6861 !important;
 }
+.blog-page .article-body {
+  color: #000 !important;
+}
 .blog-page footer {
   border-color: #d4cec1;
 }
@@ -836,6 +839,9 @@ p.lede {
 @media (max-width: 639px) {
   .blog-page h1 {
     font-size: 58px;
+  }
+  .blog-page .reveal[style*="C4C4CA"] {
+    color: #000 !important;
   }
 }
 
